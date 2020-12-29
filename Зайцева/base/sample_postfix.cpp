@@ -18,7 +18,7 @@ int main()
   postfix.ToPostfix();
   cout << "Постфиксная форма: " << postfix.GetPostfix() << endl;
   res = postfix.Calculate();
-  cout << res << endl;
+  cout << "Результат: " << res << endl;
 
   return 0;
 }
